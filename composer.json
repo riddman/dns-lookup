@@ -1,0 +1,34 @@
+{
+    "name": "riddman/dns-lookup",
+    "description": "A simple package for retrieving DNS records",
+    "type": "library",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Oleksandr Polishchuk",
+            "email": "forcepoin3@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Riddman\\DnsLookup\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
