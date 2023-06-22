@@ -11,8 +11,8 @@ Requirements:
 ### Step 1
 Add following record within repositories section:
     {
-        "type": "path",
-        "url": "packages/dns-lookup"
+        "type": "vcs",
+        "url": "git@github.com:riddman/dns-lookup.git"
     }
 
 ### Step 2
