@@ -18,6 +18,13 @@
             "Riddman\\DnsLookup\\": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Riddman\\DnsLookup\\DnsLookupServiceProvider"
+            ]
+        }
+    },
     "autoload-dev": {
         "psr-4": {
             "Tests\\": "tests/"

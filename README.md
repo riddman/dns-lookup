@@ -1,6 +1,7 @@
 # DnsLookup
 
-Simple PHP package that allow us to get all DNS records for the specified domain name.
+Simple PHP package for the Laravel framework (standalone also).
+This library allow us to get all DNS records for the specified domain name.
 
 Requirements:
 - PHP 8 or higher
